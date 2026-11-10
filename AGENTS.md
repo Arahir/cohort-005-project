@@ -5,6 +5,10 @@ Do these checks in this order before you report a change to `app/` as complete:
 1. `npm run typecheck`
 2. `npm run test`
 
+## Domain language
+
+`GLOSSARY.md` is the source of truth for domain terms. Use its terms in UI copy, emails, code names and comments, and never a word from a term's _Avoid_ list. For a concept it doesn't cover, add the term there before using it.
+
 ## When something breaks
 
 | Symptom                                         | Cause                                                                                                  |
